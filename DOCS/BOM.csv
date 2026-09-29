@@ -1,0 +1,36 @@
+Category,Name,Model,Qty,Unit_Price_RUB,Total_RUB,Package,Supplier,Notes
+Core,MCU,ESP32-WROVER-IE-N16R8,1,800,800,Module,AliExpress,16MB Flash / 8MB PSRAM
+Core,Antenna,2.4GHz IPEX MHF1,1,100,100,PCB Flex,AliExpress,Flexible PCB antenna
+Core,DAC,PCM5102A Module,1,350,350,Module,AliExpress,GY-PCM5102
+Core,Amplifier,OPA1622IDRCT,1,450,450,VSON-10,TI/Mouser,Audio op-amp
+Core,Rail Splitter,TLE2426,1,40,40,SOT-23,TI/Mouser,Virtual ground for OPA1622
+Core,ADC,PCM1808 Module,1,250,250,Module,AliExpress,24-bit I2S
+Core,Speaker,40mm dynamic premium,2,600,1200,THT,Mouser,Impedance 32 ohm
+Power,Battery,Li-Po 3.7V 1000mAh,2,350,700,Pouch,AliExpress,With BMS JST-PH 2.0
+Power,Battery Ears,Li-Po 3.7V 500mAh,2,125,250,Pouch,AliExpress,For ears kit 1
+Power,BMS+Charger,IP2326 / LX-LIFC1,1,200,200,Module,AliExpress,2S balance + QC
+Power,PD Trigger,IP2726,1,100,100,QFN,AliExpress,USB-C PD/QC
+Power,Power Path Controller,ETA6003,1,60,60,SOT-23,AliExpress,USB vs battery priority
+Power,P-MOSFET,AO3401,1,15,15,SOT-23,LCSC,Power Path switch
+Power,Schottky Diode,SS34,1,10,10,SMA,LCSC,Reverse current protection
+Power,DC-DC,TPS63070,1,250,250,VQFN,Mouser,Buck-boost 3.3V/2A
+Power,Boost +-5V,LM27762,1,200,200,DFN,TI/Mouser,Headroom for OPA1622
+Connector,USB-C,16-pin female PTH,1,150,150,SMD+PTH,AliExpress,Charge + data + flash
+Connector,Pogo-Pin 6-pin,2.0mm pitch,3,150,450,Spring,AliExpress,Gold plated 2 ears + 1 removable mic
+Connector,MicroSD,Slot push-push SMD,1,150,150,SMD,LCSC,With card detect
+Connector,JST-PH 2.0,2-pin male+female,2,30,60,THT,LCSC,Battery
+Connector,USB-TTL Bridge,CP2102N,1,120,120,SOP-8,LCSC,UART for flashing
+UI,I/O Expander,PCF8574T,1,40,40,SOP-16,TI/Mouser,6 buttons + 2 ear detect
+UI,Button,SMD 4.5x4.5mm,6,10,60,SMD,LCSC,Tactile
+UI,Status LED,SK6812 MINI-E,1,30,30,3535,AliExpress,Addressable RGB
+UI,Capsule Microphone,Analog 6mm electret,5,60,300,THT,AliExpress,2 cups + 2 ears + 1 removable
+Passive,Resistor Kit,SMD 0603 1%,1,250,250,0603,LCSC,36 values x20
+Passive,Capacitor Kit,SMD 0603,1,300,300,0603,LCSC,1pF-10uF 50V
+Passive,Tantalum Cap,T491A106K016AT,4,60,240,Case A,LCSC,10uF/16V
+Passive,Inductor,SMD 0603 10uH,2,30,60,0603,LCSC,Power filter
+Passive,Ferrite Bead,MPZ1608S601ATA00,4,15,60,0603,LCSC,600ohm@100MHz
+Passive,Transistor,BC817,2,5,10,SOT-23,LCSC,Auto-reset EN + IO0
+Consumable,Wire,30 AWG Silicone Kit,1,200,200,Kit,AliExpress,Internal wiring
+Consumable,Glue,B7000,1,150,150,Tube,AliExpress,Sealing and fixation
+Consumable,Solder+Flux,Wick+Flux+Solder,1,300,300,Kit,AliExpress,Soldering
+Consumable,Acoustic Mesh,ePTFE Membrane,1,100,100,Sheet,AliExpress,Microphone and vent cover
